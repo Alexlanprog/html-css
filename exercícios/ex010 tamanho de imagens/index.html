@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><h1>imagens dinamicas</h1>
+    <p>tente abrir essa imagems em diferentes dipositivos</p>
+    <picture>
+        <source media="(max-width:650px )" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width:850px)" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagem flexivel">
+        
+
+    </picture>
+    <p>para a imagem mudar para uma menor vc bota souce media type vc troca o max pelo min dps bota os px q é pixels, dps em srcset vc bota a imagem q vai abrir, e por fim bota tipo de imagem </p>
+
+</body>
+</html>

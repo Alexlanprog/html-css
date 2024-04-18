@@ -1,0 +1,24 @@
+body{
+    background-color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#arroz{
+    text-align: center; color: rgb(22, 131, 134); 
+}
+h1{
+    color:rgb(224, 174, 108);
+}
+
+.basico{
+    background-color:rgb(2, 56, 92) ; color: rgb(4, 151, 151);
+}
+.intermediario{
+    color: rgb(27, 173, 93); font-weight: bolder;
+}
+.avancado{
+    color: cadetblue;
+}
+
+.extra{
+    background-color: antiquewhite;
+}
