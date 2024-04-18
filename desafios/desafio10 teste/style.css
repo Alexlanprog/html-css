@@ -1,0 +1,62 @@
+
+@font-face{
+    font-family:'indox';
+    src: url(fontes/idroid.otf),format(opentype);}
+
+
+body{
+    background-color: #20ac90;
+    text-align: center;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: linear-gradient(180deg,#42b684, #94cc6e);
+}
+header>a{
+    text-align: left;
+}
+main{
+    background-color: white;
+    margin-left: 450px;
+    margin-right:450px; 
+    padding: 17px; 
+    text-align: justify;
+    text-indent: 17px;
+}
+section{
+    background-color: #6bcfbb;
+    text-align: justify;
+    padding: 6px;
+}
+
+footer{
+    background-color: #94cc6e;
+    margin-left: 450px;
+    margin-right: 450px;
+    font-weight: bolder;
+}
+
+.subtitulo{
+    background-image: linear-gradient(50deg, #6bb495, white);
+    padding: 5px;
+}
+
+.cordostitulos{
+    color: #34b17a;
+    font-family:indox;
+    text-align:left;
+}
+h3{
+    background-color: #1c8d5c;
+    text-align: left;
+    color: white;
+    padding: 6px;
+}
+
+    
+
+
+
+
