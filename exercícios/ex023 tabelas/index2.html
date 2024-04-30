@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr{
+            padding: 7px;
+            
+        }
+        td, th{
+            border: 1px solid black;
+            padding:10px;
+            
+
+        }
+        
+        table{border-collapse: collapse;
+            width: 500px;
+            height: 200px;
+            position: relative;
+        }
+        .posicao{
+            text-align: center;
+        }
+        .populacao{
+            text-align: right;
+        }
+
+        thead, tfoot{
+            background-color: rgb(208, 223, 223);
+            color:coral;
+        }
+        thead>tr>th{
+            position: sticky;
+            top: 0;
+            background-color: rgb(208, 223, 223);
+
+        }
+        tbody tr:nth-child(2n){
+            background-color: antiquewhite;
+        }  
+    
+        caption{
+            font-weight: bold;
+            font-size: 1.8em;
+            background-color: rgb(174, 181, 187);
+            padding: 7px;
+                                   
+        }
+
+    </style>
+</head>
+<body><h1>tabela grande</h1>
+
+    <table>
+        <caption>federacao do brasil</caption>
+        <thead>
+            <tr>
+                <th scope="col">posição</th>
+                <th scope="col">estado</th>
+                <th scope="col">população</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="posicao">1</td>
+                <td>são paulo</td>
+                <td class="populacao">44 411 238</td>
+            </tr>
+            <tr>
+                <td class="posicao">2</td>
+                <td>minas gerais</td>
+                <td class="populacao">20 538 718</td>
+            </tr>
+            <tr>
+                <td class="posicao">3</td>
+                <td>rio de janeiro</td>
+                <td class="populacao">16 054 524</td>
+            </tr>
+            <tr>
+                <td class="posicao">4</td>
+                <td>Bahia</td>
+                <td class="populacao">14 141 626</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td class="posicao">27</td>
+            <th scope="row">total da popukação</th>
+            <td class="populacao">203 062 512</td>
+                       
+        </tfoot>
+    </table>
+    <p style="background-color: burlywood;"; >pa fazer o efeito zebra vc usa tbody tr:nth-child() no parentese vc bota 2n,3n... ou vc usa odd(impar) ou even(par), o cabecalho ta seguiindo a tabela </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officia provident sequi nemo, explicabo numquam! Officiis praesentium nulla dolorum, eveniet possimus deleniti dolor explicabo. Ratione quo voluptate suscipit illum blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat recusandae quam quisquam iusto non sint distinctio aspernatur? Blanditiis et dolore perferendis quod, dolores odio minima quisquam. Possimus magnam sint saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, facere quod. Enim, blanditiis repudiandae necessitatibus eveniet dolor doloribus incidunt ex corporis repellat nulla fuga ratione voluptas sed, at ut explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus in similique quibusdam ad tempora culpa, natus quae quidem excepturi nostrum expedita ipsa incidunt vero facilis vitae suscipit veritatis ut obcaecati.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officia provident sequi nemo, explicabo numquam! Officiis praesentium nulla dolorum, eveniet possimus deleniti dolor explicabo. Ratione quo voluptate suscipit illum blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat recusandae quam quisquam iusto non sint distinctio aspernatur? Blanditiis et dolore perferendis quod, dolores odio minima quisquam. Possimus magnam sint saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, facere quod. Enim, blanditiis repudiandae necessitatibus eveniet dolor doloribus incidunt ex corporis repellat nulla fuga ratione voluptas sed, at ut explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus in similique quibusdam ad tempora culpa, natus quae quidem excepturi nostrum expedita ipsa incidunt vero facilis vitae suscipit veritatis ut obcaecati.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officia provident sequi nemo, explicabo numquam! Officiis praesentium nulla dolorum, eveniet possimus deleniti dolor explicabo. Ratione quo voluptate suscipit illum blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat recusandae quam quisquam iusto non sint distinctio aspernatur? Blanditiis et dolore perferendis quod, dolores odio minima quisquam. Possimus magnam sint saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, facere quod. Enim, blanditiis repudiandae necessitatibus eveniet dolor doloribus incidunt ex corporis repellat nulla fuga ratione voluptas sed, at ut explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus in similique quibusdam ad tempora culpa, natus quae quidem excepturi nostrum expedita ipsa incidunt vero facilis vitae suscipit veritatis ut obcaecati.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officia provident sequi nemo, explicabo numquam! Officiis praesentium nulla dolorum, eveniet possimus deleniti dolor explicabo. Ratione quo voluptate suscipit illum blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat recusandae quam quisquam iusto non sint distinctio aspernatur? Blanditiis et dolore perferendis quod, dolores odio minima quisquam. Possimus magnam sint saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, facere quod. Enim, blanditiis repudiandae necessitatibus eveniet dolor doloribus incidunt ex corporis repellat nulla fuga ratione voluptas sed, at ut explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus in similique quibusdam ad tempora culpa, natus quae quidem excepturi nostrum expedita ipsa incidunt vero facilis vitae suscipit veritatis ut obcaecati.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officia provident sequi nemo, explicabo numquam! Officiis praesentium nulla dolorum, eveniet possimus deleniti dolor explicabo. Ratione quo voluptate suscipit illum blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat recusandae quam quisquam iusto non sint distinctio aspernatur? Blanditiis et dolore perferendis quod, dolores odio minima quisquam. Possimus magnam sint saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, facere quod. Enim, blanditiis repudiandae necessitatibus eveniet dolor doloribus incidunt ex corporis repellat nulla fuga ratione voluptas sed, at ut explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus in similique quibusdam ad tempora culpa, natus quae quidem excepturi nostrum expedita ipsa incidunt vero facilis vitae suscipit veritatis ut obcaecati.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officia provident sequi nemo, explicabo numquam! Officiis praesentium nulla dolorum, eveniet possimus deleniti dolor explicabo. Ratione quo voluptate suscipit illum blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat recusandae quam quisquam iusto non sint distinctio aspernatur? Blanditiis et dolore perferendis quod, dolores odio minima quisquam. Possimus magnam sint saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, facere quod. Enim, blanditiis repudiandae necessitatibus eveniet dolor doloribus incidunt ex corporis repellat nulla fuga ratione voluptas sed, at ut explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus in similique quibusdam ad tempora culpa, natus quae quidem excepturi nostrum expedita ipsa incidunt vero facilis vitae suscipit veritatis ut obcaecati.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officia provident sequi nemo, explicabo numquam! Officiis praesentium nulla dolorum, eveniet possimus deleniti dolor explicabo. Ratione quo voluptate suscipit illum blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat recusandae quam quisquam iusto non sint distinctio aspernatur? Blanditiis et dolore perferendis quod, dolores odio minima quisquam. Possimus magnam sint saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, facere quod. Enim, blanditiis repudiandae necessitatibus eveniet dolor doloribus incidunt ex corporis repellat nulla fuga ratione voluptas sed, at ut explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus in similique quibusdam ad tempora culpa, natus quae quidem excepturi nostrum expedita ipsa incidunt vero facilis vitae suscipit veritatis ut obcaecati.</p>
+    
+</body>
+</html>
